@@ -1,6 +1,6 @@
 .header {
   text-align: center;
-  background: #333;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #4facfe 50%, #00f2fe 75%, #3b82f6 100%);
   color: white;
   padding: 20px;
   margin-bottom: 30px;
