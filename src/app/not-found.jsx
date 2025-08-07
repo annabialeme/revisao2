@@ -1,13 +1,14 @@
 import Link from "next/link";
+import styles from './not-found.module.css';
 
 export default function NotFound() {
     return (
-        <div>
-            <h1>🔍 404 - Página não encontrada</h1>
-            <p>A página que você procura não existe.</p>
+        <div className={styles.container}>
+            <h1 className={styles.title}>🔍 404 - Página não encontrada</h1>
+            <p className={styles.message}>A página que você procura não existe.</p>
             
-            <div>
-                <Link href="/">🏠 Voltar para Home</Link>
+            <div className={styles.linkContainer}>
+                <Link href="/" className={styles.link}>🏠 Voltar para Home</Link>
             </div>
         </div>
     )
